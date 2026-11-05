@@ -1,4 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Mi primer Sitio</title>
+  <style>
+    .contenedor-reportaje {
+      width: 100%;
+      max-width: 900px;
+      height: 600px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
 
+    .contenedor-reportaje iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+    Aqui va el contenido visible
+    HOLA
+
+    <!-- Inserción del reportaje usando srcdoc para cargar el código directamente -->
+    <div class="contenedor-reportaje">
+      <iframe srcdoc='
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -112,8 +142,6 @@
     </p>
   </header>
 
-  <!-- IMAGEN 1: DESTRUCCIÓN DE AL-SHIFA -->
-
   <figure class="imagen-destacada">
     <img
       src="https://live-production.wcms.abc-cdn.net.au/aa9fba38a5951745bc8a5d1da45974d7?cropH=3333&cropW=5000&height=575&impolicy=wcms_crop_resize&width=862&xPos=0&yPos=0"
@@ -162,8 +190,6 @@
 
   </section>
 
-  <!-- IMAGEN 2: RECIÉN NACIDO EN INCUBADORA -->
-
   <figure>
     <img
       src="https://www.unicef.org/sites/default/files/styles/press_release_feature/public/20241105_Gaza_NICU.JPG.webp?itok=V9zZLm_i"
@@ -185,129 +211,5 @@
     <h2>Los ataques por gobernación</h2>
 
     <p>
-      <strong>Gaza Norte</strong> fue la gobernación con más incidentes,
-      con 296 en total. Los ataques directos y la violencia armada
-      pasaron de 38 registros en 2023 a 73 en 2024. Además, ese último
-      año se contabilizaron 46 episodios de obstrucción logística,
-      frente a los 11 del año anterior.
-    </p>
-
-    <p>
-      En <strong>Gaza Ciudad</strong> se registraron 248 incidentes.
-      Durante 2023 hubo 68 episodios de control y asedio, mientras
-      que los ataques directos sumaron 53. La obstrucción logística
-      también aumentó en el periodo analizado: pasó de 11 registros
-      en 2023 a 32 en 2025.
-    </p>
-
-    <p>
-      <strong>Khan Younis</strong> acumuló 190 incidentes, con un aumento
-      importante durante 2024, año en que se registraron 117.
-      Los ataques directos pasaron de 10 casos en 2023 a 55 en 2024.
-      En <strong>Deir al Balah</strong> se contabilizaron 43 incidentes
-      y en <strong>Rafah</strong>, 18. Aunque estas dos gobernaciones
-      presentan cifras menores, eso no significa que estén libres
-      de las consecuencias del deterioro sanitario.
-    </p>
-
-  </section>
-
-  <!-- IMAGEN 3: UNIDAD NEONATAL DE KAMAL ADWAN -->
-
-  <figure>
-    <img
-      src="https://www.unicef.org/sop/sites/unicef.org.sop/files/styles/two_column/public/1_1.webp?itok=W_ZAJlyD"
-      alt="Incubadora y equipamiento médico en la unidad neonatal dañada del hospital Kamal Adwan"
-      loading="lazy">
-
-    <figcaption>
-      Equipamiento médico en la unidad de cuidados intensivos
-      neonatales del hospital Kamal Adwan, en el norte de Gaza.
-      20 de febrero de 2025. Fotografía: UNICEF-SoP/Loris De Filippi.
-      <a href="https://www.unicef.org/sop/stories/kamal-adwan-hospital-hope-ruin-and-back-again"
-         target="_blank" rel="noopener">Fuente</a>.
-    </figcaption>
-  </figure>
-
-  <section>
-
-    <h2>Los tipos de incidentes registrados</h2>
-
-    <p>
-      En el total de los tres años, los ataques directos y la violencia
-      armada fueron la categoría más frecuente, con
-      <strong>343 registros</strong>. Les siguieron las operaciones
-      de control y asedio, con 230, y la obstrucción logística,
-      con 201. Otros 21 incidentes quedaron clasificados
-      como no especificados.
-    </p>
-
-  </section>
-
-  <section>
-
-    <h2>¿Qué significan estos números para quienes necesitan dar a luz?</h2>
-
-    <p>
-      Pero ¿qué significan estos números para una mujer que necesita
-      dar a luz? La visualización no permite establecer cuántos
-      embarazos se han visto afectados directamente por los ataques
-      a hospitales. Sí ayuda a entender el contexto en que las mujeres
-      embarazadas deben acceder a controles médicos, enfrentar posibles
-      complicaciones y recibir atención durante el parto.
-    </p>
-
-    <p>
-      La atención de un recién nacido también depende de que existan
-      hospitales operativos, equipos médicos y recursos para responder
-      a emergencias. Cuando estos servicios se ven afectados, las
-      condiciones para recibir atención se vuelven más difíciles,
-      especialmente para quienes necesitan cuidados especializados.
-    </p>
-
-  </section>
-
-  <!-- IMAGEN 4: MADRE Y RECIÉN NACIDO -->
-
-  <figure>
-    <img
-      src="https://www.unicef.org/mena/sites/unicef.org.mena/files/styles/media_large_image/public/E%20%281%29.webp?itok=sgc5efVI"
-      alt="Madre palestina junto a su hijo recién nacido en un hospital de Gaza"
-      loading="lazy">
-
-    <figcaption>
-      Noura, madre palestina, junto a su hijo recién nacido Majed,
-      en un hospital de la Franja de Gaza. Fotografía: UNICEF.
-      <a href="https://www.unicef.org/mena/stories/resilience-gaza-mothers"
-         target="_blank" rel="noopener">Fuente</a>.
-    </figcaption>
-  </figure>
-
-  <section>
-
-    <p>
-      Los 795 incidentes registrados muestran una parte de lo que
-      ha ocurrido con la infraestructura sanitaria de Gaza. Detrás
-      de ellos está la situación de una población que necesita
-      atención médica en medio de la violencia. Para las mujeres
-      embarazadas y sus hijos, el problema no comienza necesariamente
-      al momento de nacer: también está en las condiciones que
-      encuentran antes, durante y después del parto.
-    </p>
-
-    <p>
-      En un territorio donde los hospitales han sido blanco de
-      agresiones, garantizar que una vida pueda comenzar y recibir
-      los cuidados necesarios se ha convertido en un desafío
-      cada vez mayor.
-    </p>
-
-  </section>
-
-</article>
-
-</body>
-</html>
-
-
+      <strong>Gaza Norte</strong> fue la gobernación con más
 
