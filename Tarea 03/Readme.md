@@ -1,6 +1,6 @@
-## Tema del reportaje
+## Tema de la crónica
 
-El reportaje aborda cómo los ataques a hospitales en Gaza han dificultado el acceso a la atención médica, especialmente para mujeres embarazadas y recién nacidos. Se analizaron 795 incidentes entre 2023 y 2025.
+La crónica aborda cómo los ataques a hospitales en Gaza han dificultado el acceso a la atención médica, especialmente para mujeres embarazadas y recién nacidos. Se analizaron 795 incidentes entre 2023 y 2025.
 
 ## Proceso de creación del sitio web
 
